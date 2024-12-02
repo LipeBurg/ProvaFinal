@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fbeff1; /* Tom claro complementando a cor principal */
+    color: #333; /* Texto principal */
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #e46e7d; /* Cor principal */
+    font-size: 2em;
+}
+
+/* Mensagens de Feedback */
+.success {
+    color: #4caf50; /* Verde para sucesso */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: #e46e7d; /* Vermelho suave para erros */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #ffffff; /* Fundo branco para contraste */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e3a2aa; /* Borda em tom mais suave da cor principal */
+}
+
+thead {
+    background-color: #e46e7d; /* Cor principal */
+    color: white;
+}
+
+thead th {
+    padding: 12px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9d3d8; /* Tom mais claro da cor principal */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fce7ea; /* Tom ainda mais claro */
+}
+
+td, th {
+    border: 1px solid #e3a2aa;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: #e46e7d; /* Cor principal no hover */
+    color: white;
+    cursor: default;
+}
+
+/* Links (se houver) */
+a {
+    color: #e46e7d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
